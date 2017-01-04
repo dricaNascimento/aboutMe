@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Adriana Nascimento</title>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/efects.css" rel="stylesheet"/>
+<script src="js/jquery.js"></script>
+<script src="js/cycle-plugin.js"></script>
+<script>
+            $(document).ready(function(){
+      		$('#fade').cycle({
+      			fx: 'fade',
+      			delay:  -6500,
+      			pager:   '#nav',
+      			pagerAnchorBuilder: pagerFactory
+      		});
+
+      		function pagerFactory(idx, slide) {
+      			var s = idx >= 0 ? ' style="display:block"' : '';
+      			return '<li'+s+'><a href="#"></a></li>';
+      		};
+            });
+</script>
+</head>
+
+<body>
+	<div id="body">
+	
+	<main>
+		<!--PÃ¡gina inicial - home -->
+		<section id="home">
+			<article>
+				<div class="page_content_area_middle">
+					<div class="content_left">
+						<div class="banner_home_top">
+							<div id="fade">
+									<img
+									src="imagens/slide_index/2.jpg" border="0" alt=""
+									class="img_banner_home_top" /> <img
+									src="imagens/slide_index/3.jpg" border="0" alt=""
+									class="img_banner_home_top" /> <img
+									src="imagens/slide_index/5.jpg" border="0" alt=""
+									class="img_banner_home_top" /> <img
+									src="imagens/slide_index/7.jpg" border="0" alt=""
+									class="img_banner_home_top" /> <img
+									src="imagens/slide_index/9.jpg" border="0" alt=""
+									class="img_banner_home_top" />
+							</div>
+							<div class="nav_control">
+								<ul id="nav"></ul>
+							</div>
+
+						</div>
+						<div class="content_text">
+							<div class="text_content" id="first_text_content">
+								<div class="area_image_wrap image_efeito_sombra_hover">
+									<a href="#home" class="area_link_efeito link_sombra_hover">
+										<img src="imagens/pc.png"
+										border="0" alt="" style="float: left; width: 55px" /> 
+									</a>
+								</div>
+								<div class="resumo">
+									Lorem ipsum <b>dolor sit amet</b>, consectetur adipiscing elit. Etiam
+									a dapibus ipsum. Nullam commodo tortor non nulla luctus interdum.
+								</div>
+							</div>
+							<div class="text_content"> 
+								<div class="area_image_wrap image_efeito_sombra_hover">
+									<a href="#home" class="area_link_efeito link_sombra_hover">
+										<img src="imagens/user.png" border="0" alt=""
+										style="float: left; width: 55px" /> 
+									</a>
+								</div>	
+								<div class="resumo">
+									Lorem ipsum <b>dolor sit amet</b>, consectetur adipiscing elit. Etiam a dapibus ipsum. 
+									Nullam commodo tortor non nulla luctus interdum.
+								</div>
+							</div>
+							<div class="text_content"> 
+								<div class="area_image_wrap image_efeito_sombra_hover">
+									<a href="#home" class="area_link_efeito link_sombra_hover">
+										<img src="imagens/chat.png" border="0" alt=""
+										style="float: left; width: 55px" /> 
+									</a>
+								</div>
+								<div class="resumo">
+									Lorem ipsum <b>dolor sit amet</b>, consectetur adipiscing elit. Etiam a dapibus ipsum.
+									Nullam commodo tortor non nulla luctus interdum.
+								</div>
+							</div>
+						</div>
+						<div class="link_bottom_content">
+							<a id="link-papers" href="#papers">
+							<span class="link_bottom_content">
+								Papers & Tutorials 
+							</span>
+							<img src="imagens/projetos.png" border="0" alt="" class="img_link_bottom_content"/>
+							</a>
+						</div>
+					</div>
+					<aside>
+					<div class="busca">
+						<form style="padding: 0; margin: 0;">
+							<div style="width: 264px; border: solid 1px #ccc; padding: 3px; height: 25px; display: inline-flex;">
+								<input type="text" name="email" id="email" placeholder="Search..."
+									style="width: 225px; color: #d2d2d2; padding-left: 5px; height: 25px; border: 0 none;" />
+								<button id="search_button" type="submit" class="icon_search">
+									<span class="hidden-label">Pesquisar</span>
+									<!-- <img src="imagens/find.png" style="float: right;" border="0" /> -->
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="conteudo-dir" style="border: solid 1px #fbcd84; margin-top: 8px; background:#fddaa3; padding-bottom:10px;">
+							<div style="padding-left: 13px;">
+								<div style="margin-top: 4px;">
+                                                                    <span style="color: #E61F47; font-size: 12px; font-weight: bold; font-family: Verdana, Geneva, sans-serif;">
+    									Newsletter
+    								    </span>
+								</div>
+								<div style="margin-top: 4px;">
+									<input type="text" name="nome" placeholder="name"
+									id="nome"
+									style="width: 235px; padding-left: 5px; color: #d2d2d2; height: 24px; border: solid 1px #fddaa3;" />
+								</div>
+								<div style="margin-top: 8px; padding-right: 16px;">
+									<input type="text" name="email" id="email" placeholder="email"
+										style="width: 166px; height: 24px; border: solid 1px #fddaa3; color: #d2d2d2; padding-left: 5px;" />
+									<a href="#">
+										<input type="button" value="Submit"
+											style="float:right; margin-top:1px; background: #E61F47; cursor: pointer; padding-top:0; color: #fff; border: 0 none; height: 26px; font-family: Verdana, Geneva, sans-serif; font-size:11px;" />
+									</a>
+								</div>
+							</div>
+					</div>
+
+					<div class="conteudo-dir-eventos"
+						style="float: right; width: 240px; border: solid 1px #fbcd84; height: 130px; background:#fddaa3; padding: 0 15px 0 15px; margin-bottom: 25px; color: #E61F47;">
+						<div style="font-size: 12px; font-weight: bold;">Events</div>
+						<span style="font-size: 11px;"> <b>25/04/2014</b> - Feira
+							do livro de santarï¿½m
+						</span>
+						<div class="separador"
+							style="height: 1px; border-bottom: solid 1px #fff; background: 0 none;">
+						</div>
+						<br /> <span style="font-size: 11px;"> <b>25/04/2014</b> -
+							Feira do livro
+						</span>
+						<div class="separador"
+							style="height: 1px; border-bottom: solid 1px #fff; background: 0 none;">
+						</div>
+						<br /> <span style="font-size: 11px;"> <b>25/04/2014</b> -
+							Feira do livro
+						</span>
+						<div class="separador"
+							style="height: 1px; border-bottom: solid 1px #fff; background: 0 none;">
+						</div>
+						<br /> <span
+							style="font-size: 12px; float: right; font-weight: bold;">
+							See more ... </span>
+
+					</div>
+					<div class="conteudo-dir" style="border: 0 none; box-shadow: none;">
+						<img src="imagens/eu.jpg" border="0" alt=""
+							style="width: 90px; float: left;" />
+						<div style="float: right; width: 160px; text-align: right;">
+							<div style="font-size: 12px; font-weight: bold; color: #555; border-bottom: solid 1px #E61F47;">
+								Adriana Nascimento
+							</div>
+							<div style="font-size: 11px; font-style: italic; line-height: 1.5em; padding-top: 3px;">
+								Analista de Sistemas Líder na
+								<span> <a style="font-weight: normal; color: #E61F47; text-decoration: underline"
+									href="http://www.improvess.com" target="blank">improvess</a></span>,
+								amante dos mínimos detalhes e degustadora-master de chocolates.
+								<span style="color: #E61F47;"> =) </span>
+							</div>
+						</div>
+					</div>
+                                 </aside>
+				</div>
+			</article>
+		</section>
+		<!--Fim da pï¿½gina inicial-->
+
+		<section id="about" class="panel">
+			<article>
+				<div class="page_content_area_middle">
+					<div class="content_about_info" style="float: left; width: 160px; display: inline-block; margin-right: 50px;">
+						<div class="conteudo" style="border: 0 none; width: 160px; box-shadow: none; display: inline-block; text-align: center;">
+							<img src="imagens/eu.jpg" border="0" alt=""
+							style="width: 130px; float: right; border-radius: 90px;" />
+							
+							<div style="width: 160px; text-align: right; clear: both;">
+								<div style="font-size: 12px; font-weight: bold; color: #555;/*  border-bottom: solid 1px #E61F47; */">
+									Adriana Nascimento
+								</div>
+								<div style="font-size: 11px; font-style: italic; line-height: 1.5em; padding-top: 3px;">
+										Analista de Sistemas Líder na
+                								<span> <a style="font-weight: normal; color: #E61F47; text-decoration: underline"
+                									href="http://www.improvess.com" target="blank">improvess</a></span>,
+                								amante dos mínimos detalhes e degustadora-master de chocolates.
+                								<span style="color: #E61F47;"> =) </span>
+								</div>
+							</div>
+						</div>
+						<div class="conteudo" style="border: 0 none; width: 160px; box-shadow: none; display: inline-block; text-align: center;">
+						      <a href="#tools">My tools</a>
+						</div>
+					</div>
+					<div class="content_left">
+						<h1 class="cabecalho_sessao">About me</h1>
+						<div class="resumo" style="width: 98%;">
+							<h2 class="cabecalho_sessao">What says about me?</h2>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex lectus, 
+							ornare eu enim et, tristique dignissim tellus. Nam eu varius tellus. 
+							Phasellus ullamcorper, velit a commodo aliquet, sem purus cursus nisi, 
+							pharetra lacinia nisi tortor at lectus. Class aptent taciti sociosqu ad 
+							litora torquent per conubia nostra, per inceptos himenaeos.
+						</div>
+						
+						<div class="resumo" style="width: 98%;">	
+							<h2 class="cabecalho_sessao">What says about me?</h2>
+							Pellentesque fringilla, lectus nec 
+							dapibus malesuada, tortor purus tincidunt ligula, 
+							at ultricies nisi elit ut nunc. Nullam risus nulla, 
+							fringilla sit amet porta in, condimentum in eros. Nullam in fringilla nunc. 
+							Aliquam rhoncus scelerisque blandit. 
+							Pellentesque elementum vestibulum dui pretium volutpat. Suspendisse vitae ex urna.
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		
+		<section id="tools" class="panel">
+           <div class="page_content_area_middle">
+				<div style="margin-bottom: 20px;">
+					<div style="float: left; width: 603px;">
+						<h1>My works tools</h1>
+					</div>
+				</div>
+           </div>
+       </section>
+
+		<section id="papers" class="panel">
+			<article>
+				<div class="page_content_area_middle">
+					<div style="margin-bottom: 20px;">
+						<div style="float: left; width: 603px;">
+							<h1>Papers & Tutorials</h1>
+						</div>
+						<form style="padding: 0; margin: 0;">
+							<div style="width: 265px; border: solid 1px #ccc; padding: 3px; height: 25px; display: inline-flex;">
+								<input type="text" name="email" id="email" placeholder="Search..."
+									style="width: 225px; color: #d2d2d2; padding-left: 5px; height: 25px; border: 0 none !important;" />
+								<button id="search_button" type="submit" class="icon_search">
+									<span class="hidden-label">Pesquisar</span>
+									<!-- <img src="imagens/find.png" style="float: right;" border="0" /> -->
+								</button>
+							</div>
+						</form>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="content_full">
+						<div class="content_text">
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px; display: block;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div
+									style="border-bottom: solid 1px #FFE4C4; height: 100px; background: #fff;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />     
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px; display: block;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div
+									style="border-bottom: solid 1px #FFE4C4; height: 100px; background: #fff;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-right: 70px; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+
+							<div
+								style="width: 25%; border: solid 1px #FFE4C4; height: 200px; background: #FFE4C4; float: left; margin-bottom: 20px;">
+								<div
+									style="width: auto; position: absolute; display: block; z-index: 10; background: rgba(24, 183, 151, 0.9); height: auto; color: #fff; font-size: 11px; font-weight: bold; padding: 0 5px">
+									<span>Computer on the beach</span>
+								</div>
+								<div style="border-bottom: solid 1px #FFE4C4; height: 100px;">
+									<img src="imagens/posts/1.jpg" border="0" alt=""
+										style="height: 100px" />
+								</div>
+								<div
+									style="height: 35px; line-height: 1.3em; font-size: 12px; padding: 10px 10px 0 10px; text-align: justify; font-weight: bold;">
+									Sendo um UI Designer em um mundo de UX - Parte 1</div>
+								<div
+									style="height: 65px; color: #555; line-height: 1.3em; font-size: 11px; padding: 0 10px 0 10px; text-align: justify;">
+									No meio a tantas discussï¿½es sobre UI, UX, AI, vejo muitos
+									querendo um pedacinho do ouro.</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+		</article>
+	</section>
+
+	<section id="portfolio" class="panel">
+          <article>
+			<div class="page_content_area_middle">
+				<div class="content_left">
+					<h1 class="cabecalho_sessao">Portfolio</h1>
+                </div>
+                <div class="content_left">
+                </div>
+           	    <div class="content_right">
+                </div>
+              </div>
+          </article>
+       </section>
+
+	<section id="contacts" class="panel">
+		<article>
+			<div class="page_content_area_middle">
+				<div class="content_left">
+					<h1 class="cabecalho_sessao">Contact us</h1>
+					<div style="margin-top: 30px;">
+						<h3 class="cabecalho_sessao">Suggestions or general issues</h3>
+						<span style="color: #E61F47; font-size: 13px;"> adriana.cnas@gmail.com </span>
+						<h3></h3>
+						<h3 class="cabecalho_sessao">Adriana Nascimento</h3>
+						<h4 class="cabecalho_sessao">it's mine!</h4>
+						<span style="color: #E61F47; font-size: 13px;"> adriana.cnas@gmail.com </span>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<footer id="bottom_area">
+		<div class="bottom_middle">
+			<div class="content_left">
+				<div class="copyright">
+					<span class="text_content_copyright"><b>Adriana Nascimento</b> -
+						© 2017 adriana@nascimento! All Rights Reserved</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Fim da div rodapï¿½-->
+	
+	<div id="social_networks">
+		<div class="network" style="margin-bottom: 10px;">
+			<a href="https://www.facebook.com/adrianacnascimento" target="_blank"><img
+				src="imagens/facebook.png" height="29" border="0" alt="facebook"
+				title="facebook" /></a>
+		</div>
+		<div class="network" style="margin-bottom: 10px;">
+			<a
+				href="http://br.linkedin.com/pub/adriana-carvalho-nascimento/51/49b/487"
+				target="_blank"><img src="imagens/linkedin.png" height="29"
+				border="0" alt="linkedin" title="linkedin" /></a>
+		</div>
+		<div class="network" style="margin-bottom: 10px;">
+			<a
+				href="http://br.linkedin.com/pub/adriana-carvalho-nascimento/51/49b/487"
+				target="_blank"> <img src="imagens/twitter.png" height="29"
+				border="0" alt="twitter" title="twitter" />
+			</a>
+
+		</div>
+		<div class="network" style="margin-bottom: 10px;">
+			<a
+				href="https://medium.com/@dricaNascimento"
+				target="_blank"> <img src="imagens/medium.png" height="29"
+				border="0" alt="medium" title="medium" />
+			</a>
+
+		</div>
+		<div class="network" style="margin-bottom: 10px;">
+			<a
+				href="https://github.com/dricaNascimento"
+				target="_blank"> <img src="imagens/github.png" height="29"
+				border="0" alt="github" title="github" />
+			</a>
+
+		</div>
+		<div class="network">
+		     <a href="http://www.w3.org/" target="blank">
+               <img src="imagens/HTML5_Logo_32.png" alt="HTML5 Logo" title="HTML5"/>
+            </a>
+       </div>
+	</div>
+	</main>
+	</div>
+	<!--Fim da div main-->
+
+	<header>
+		<div class="header_top_middle">
+			<div class="content_header">
+				<div class="logo">
+					<a id="link-home" class="link-home-logo" href="#home"> <img
+						src="imagens/pixels.png" height="24" border="0" alt="logomarca" />
+					</a>
+				</div>
+				<nav>
+					<ul id="navigation">
+						<li>
+							<a id="link-home" href="#home">
+								<!-- <span class="icon_home">
+								</span> -->
+								home
+							</a>
+						</li>
+						<li>
+							<a id="link-about" href="#about">
+								<!-- <span class="icon_about">
+								</span> -->
+								about me
+							</a>
+						</li>
+						<!--<li>
+							<a id="link-store" href="#store">
+								store
+							</a>
+						</li>-->
+						<li>
+							<a id="link-papers" href="#papers">
+								<!-- <span class="icon_papers">
+								</span> -->
+								papers & tutorials
+							</a>
+						</li>
+						<li>
+                             <a id="link-portfolio" href="#portfolio">
+                             portfolio
+
+                             </a>
+	                     </li>
+						<li>
+							<a id="link-contacts" href="#contacts">
+								<!-- <span class="icon_contacts">
+								</span> -->
+								contacts
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+</body>
+</html>
