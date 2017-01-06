@@ -285,6 +285,10 @@ a:active {text-decoration: none;}
       color: #fff;
 }
 
+#about:target{
+       overflow-y: scroll;
+}
+
 .panel{
       width: 100%;
       min-height: 100%;
@@ -375,14 +379,14 @@ h1{
 }
 
 h1.cabecalho_sessao{
-	border-bottom: solid 1px #c6c6c6;
-	margin:0px;
+    border-bottom: solid 1px #c6c6c6;
+    margin:0px;
     padding:0px 0px 20px 0px;
     color: rgba(244,72,0,0.9);
 }
 
 h2.cabecalho_sessao{
-	margin:0px;
+    margin:0px;
     padding:20px 0px;
     color: #555;
 }
