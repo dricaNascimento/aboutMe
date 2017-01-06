@@ -16,7 +16,7 @@
 } */
 
 @font-face {
-  	font-family: 'electrolize'; 
+  	font-family: 'electrolize';
   	src:url('../font/electrolize.ttf');
 }
 
@@ -120,10 +120,6 @@ article{
       /* border-bottom: solid 1px #E61F47; */
       border-bottom: solid 1px #ccc;
 }
-
-/* #first_text_content{
-	  border-top: solid 1px #E61F47;
-} */
 
 .resumo{
       float: left;
@@ -289,21 +285,13 @@ a:active {text-decoration: none;}
        color: #fff;
 }
 
-#home:target ~ header .header_top_middle .content_header nav #navigation #link-home,
 #about:target ~ header .header_top_middle .content_header nav #navigation #link-about,
-#store:target ~ header .header_top_middle .content_header nav #navigation #link-store,
-#papers:target ~ header .header_top_middle .content_header nav #navigation #link-papers,
-#projects:target ~ header .header_top_middle .content_header nav #navigation #link-projects,
 #portfolio:target ~ header .header_top_middle .content_header nav #navigation #link-portfolio,
 #contacts:target ~ header .header_top_middle .content_header nav #navigation #link-contacts
 {
       float:left;
       background: #E61F47;
       color: #fff;
-}
-
-#papers:target{
-       overflow-y: scroll;
 }
 
 .panel{

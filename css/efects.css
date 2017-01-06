@@ -153,49 +153,6 @@
 	-moz-animation: sonarEffect 1.3s ease-out 50ms;
 	animation: sonarEffect 1.3s ease-out 50ms;
 }
-/*
-@-webkit-keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-		-webkit-transform: scale(1.5);
-		opacity: 0;
-	}
-}
-@-moz-keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-		-moz-transform: scale(1.5);
-		opacity: 0;
-	}
-}
-@keyframes sonarEffect {
-	0% {
-		opacity: 0.3;
-	}
-	40% {
-		opacity: 0.5;
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-	}
-	100% {
-		box-shadow: 0 0 0 2px rgba(0,0,0,0.1), 0 0 10px 10px #CD350D, 0 0 0 10px rgba(0,0,0,0.5);
-		transform: scale(1.5);
-		opacity: 0;
-	}
-}   */
 
 .icon_search:before, .icon_search::before{
 	font-family: 'ecoico';
@@ -203,23 +160,3 @@
 	color: #ccc;
 	font-size: 16px;
 }
-
-/* .icon_home::before{
-	font-family: 'ecoicon';
-	content: "\e014";
-}
-
-.icon_about::before{
-	font-family: 'ecoicon';
-	content: "\e012";
-}
-
-.icon_papers::before{
-	font-family: 'ecoicon';
-	content: "\e00b";
-}
-
-.icon_contacts::before{
-	font-family: 'ecoicon';
-	content: "\e00d";
-} */
