@@ -40,10 +40,11 @@ header{
       width:100%;
       height:50px;
       float:left;
-      background: -webkit-linear-gradient(top, #2e2e2e, #0f0e0f);
+      background: #2e2e2e;
+      /*background: -webkit-linear-gradient(top, #2e2e2e, #0f0e0f);
       background: -moz-linear-gradient(top, #2e2e2e, #0f0e0f);
       background: -o-linear-gradient(top, #2e2e2e, #0f0e0f);
-      background: -ms-linear-gradient(top, #2e2e2e, #0f0e0f);
+      background: -ms-linear-gradient(top, #2e2e2e, #0f0e0f);    */
       position: absolute;
       z-index: 2000;
       top: 0px;
