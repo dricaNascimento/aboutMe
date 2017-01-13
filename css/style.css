@@ -375,7 +375,6 @@ button#search_button {
 
 h1{
         margin:0px;
-        padding:0px 0px 20px 0px;
         color: rgba(244,72,0,0.9);
         font-size:16px;
         font-family: arial;
@@ -384,14 +383,14 @@ h1{
 h1.cabecalho_sessao{
     border-bottom: solid 1px #c6c6c6;
     margin:0px;
-    padding:0px 0px 20px 0px;
+    padding:0px 0px 10px 0px;
     color: rgba(244,72,0,0.9);
 }
 
 h2.cabecalho_sessao{
     margin:0px;
     padding:20px 0px;
-    color: #555;
+    color: #006A4D;
     font-family: arial;
     font-size: 16px;
 }
@@ -482,5 +481,36 @@ img.img_about{
 
 img.img_about:hover{
 	border: solid 5px #CD350D;
+}
+
+
+progress,                          
+progress[role][aria-valuenow] { 
+   background: #000066 !important; 
+}
+ 
+
+progress::-webkit-progress-bar {
+    background: #C6C6C6;
+}
+ 
+
+progress {
+    color: #16A27B;
+}
+ 
+
+progress::-moz-progress-bar { 
+    background: #16A27B;   
+}
+ 
+
+progress::-webkit-progress-value {
+    background: #16A27B; 
+}
+ 
+
+progress[aria-valuenow]:before  {
+    background: #16A27B; 
 }
 
